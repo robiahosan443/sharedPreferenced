@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:textSize="20sp"
+        android:id="@+id/usernameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:textAlignment="center"
+        android:layout_margin="40dp"/>
+    <EditText
+        android:textSize="20sp"
+        android:id="@+id/passwordId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textAlignment="center"
+        android:layout_margin="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+   <Button
+       android:layout_marginTop="15dp"
+       android:id="@+id/saveId"
+       style="@style/Widget.AppCompat.Button.Colored"
+       android:layout_width="100dp"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="30dp"
+       android:text="save"
+       android:textAppearance="@android:style/TextAppearance.Large"
+       android:textSize="20sp" />
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadId"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="load"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:textAppearance="@android:style/TextAppearance.Large"/>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textviewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text=""
+        android:textStyle="bold"/>
+</LinearLayout>
